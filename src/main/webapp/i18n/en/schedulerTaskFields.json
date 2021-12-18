@@ -1,0 +1,25 @@
+{
+  "autoproApp": {
+    "schedulerTaskFields": {
+      "home": {
+        "title": "Scheduler Task Fields",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Scheduler Task Fields",
+        "createOrEditLabel": "Create or edit a Scheduler Task Fields",
+        "notFound": "No Scheduler Task Fields found"
+      },
+      "created": "A new Scheduler Task Fields is created with identifier {{ param }}",
+      "updated": "A Scheduler Task Fields is updated with identifier {{ param }}",
+      "deleted": "A Scheduler Task Fields is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Scheduler Task Fields {{ id }}?"
+      },
+      "detail": {
+        "title": "Scheduler Task Fields"
+      },
+      "id": "ID",
+      "fieldName": "Field Name",
+      "schedulerTaskValues": "Scheduler Task Values"
+    }
+  }
+}

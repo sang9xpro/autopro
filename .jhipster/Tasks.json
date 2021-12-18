@@ -1,0 +1,51 @@
+{
+  "name": "Tasks",
+  "fields": [
+    {
+      "fieldName": "taskName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "source",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "TaskType",
+      "fieldValues": "Stream,NonStream"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "taskValues",
+      "otherEntityRelationshipName": "tasks",
+      "relationshipName": "taskValues",
+      "otherEntityField": "taskId"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "applications",
+      "otherEntityRelationshipName": "tasks",
+      "relationshipName": "applications"
+    }
+  ],
+  "entityTableName": "tasks",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211218012507"
+}

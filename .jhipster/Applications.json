@@ -1,0 +1,53 @@
+{
+  "name": "Applications",
+  "fields": [
+    {
+      "fieldName": "appName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "appCode",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "applicationsValues",
+      "otherEntityRelationshipName": "applications",
+      "relationshipName": "applicationsValues",
+      "otherEntityField": "applicationsId"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "accounts",
+      "otherEntityRelationshipName": "applications",
+      "relationshipName": "accounts",
+      "otherEntityField": "applicationsId"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "tasks",
+      "otherEntityRelationshipName": "applications",
+      "relationshipName": "tasks",
+      "otherEntityField": "applicationsId"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "comments",
+      "otherEntityRelationshipName": "applications",
+      "relationshipName": "comments",
+      "otherEntityField": "applicationsId"
+    }
+  ],
+  "entityTableName": "applications",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211218012510"
+}

@@ -1,0 +1,26 @@
+{
+  "autoproApp": {
+    "commentsValues": {
+      "home": {
+        "title": "Comments Values",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Comments Values",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Comments Values",
+        "notFound": "No Comments Values found"
+      },
+      "created": "Một Comments Values mới được tạo với định danh {{ param }}",
+      "updated": "Một Comments Values cập nhật với định danh {{ param }}",
+      "deleted": "Một Comments Values đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Comments Values {{ id }}?"
+      },
+      "detail": {
+        "title": "Comments Values"
+      },
+      "id": "ID",
+      "value": "Value",
+      "comments": "Comments",
+      "commentsFields": "Comments Fields"
+    }
+  }
+}

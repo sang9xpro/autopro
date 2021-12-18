@@ -1,0 +1,9 @@
+{
+  "autoproApp": {
+    "TaskType": {
+      "null": "",
+      "Stream": "Stream",
+      "NonStream": "NonStream"
+    }
+  }
+}

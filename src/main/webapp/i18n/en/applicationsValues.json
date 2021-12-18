@@ -1,0 +1,26 @@
+{
+  "autoproApp": {
+    "applicationsValues": {
+      "home": {
+        "title": "Applications Values",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Applications Values",
+        "createOrEditLabel": "Create or edit a Applications Values",
+        "notFound": "No Applications Values found"
+      },
+      "created": "A new Applications Values is created with identifier {{ param }}",
+      "updated": "A Applications Values is updated with identifier {{ param }}",
+      "deleted": "A Applications Values is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Applications Values {{ id }}?"
+      },
+      "detail": {
+        "title": "Applications Values"
+      },
+      "id": "ID",
+      "value": "Value",
+      "applications": "Applications",
+      "applicationsFields": "Applications Fields"
+    }
+  }
+}

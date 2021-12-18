@@ -1,0 +1,33 @@
+{
+  "name": "LoggersValues",
+  "fields": [
+    {
+      "fieldName": "value",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "loggers",
+      "otherEntityRelationshipName": "loggersValues",
+      "relationshipName": "loggers"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "loggersFields",
+      "otherEntityRelationshipName": "loggersValues",
+      "relationshipName": "loggersFields"
+    }
+  ],
+  "entityTableName": "loggers_values",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211218012500"
+}

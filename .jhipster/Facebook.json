@@ -1,0 +1,41 @@
+{
+  "name": "Facebook",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "url",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "idOnFb",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "FbType",
+      "fieldValues": "Post,People,Image,Video,Page,Location,Group"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "facebookValues",
+      "otherEntityRelationshipName": "facebook",
+      "relationshipName": "facebookValues",
+      "otherEntityField": "facebookId"
+    }
+  ],
+  "entityTableName": "facebook",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211218012519"
+}

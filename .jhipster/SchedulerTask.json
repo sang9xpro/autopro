@@ -1,0 +1,57 @@
+{
+  "name": "SchedulerTask",
+  "fields": [
+    {
+      "fieldName": "startTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "endTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "countFrom",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "countTo",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "point",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "lastUpdate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "owner",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "SchedulerStatus",
+      "fieldValues": "Open,Inprogess,Completed"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "schedulerTaskValues",
+      "otherEntityRelationshipName": "schedulerTask",
+      "relationshipName": "schedulerTaskValues",
+      "otherEntityField": "schedulerTaskId"
+    }
+  ],
+  "entityTableName": "scheduler_task",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211218012516"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Comments",
+  "fields": [
+    {
+      "fieldName": "content",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "image",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "any"
+    },
+    {
+      "fieldName": "owner",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "commentsValues",
+      "otherEntityRelationshipName": "comments",
+      "relationshipName": "commentsValues",
+      "otherEntityField": "commentId"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "applications",
+      "otherEntityRelationshipName": "comments",
+      "relationshipName": "applications"
+    }
+  ],
+  "entityTableName": "comments",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211218012525"
+}
