@@ -1,0 +1,29 @@
+{
+  "autoproApp": {
+    "applications": {
+      "home": {
+        "title": "Applications",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Applications",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Applications",
+        "notFound": "No Applications found"
+      },
+      "created": "Một Applications mới được tạo với định danh {{ param }}",
+      "updated": "Một Applications cập nhật với định danh {{ param }}",
+      "deleted": "Một Applications đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Applications {{ id }}?"
+      },
+      "detail": {
+        "title": "Applications"
+      },
+      "id": "ID",
+      "appName": "App Name",
+      "appCode": "App Code",
+      "applicationsValues": "Applications Values",
+      "accounts": "Accounts",
+      "tasks": "Tasks",
+      "comments": "Comments"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "autoproApp": {
+    "applications": {
+      "home": {
+        "title": "Applications",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Applications",
+        "createOrEditLabel": "Create or edit a Applications",
+        "notFound": "No Applications found"
+      },
+      "created": "A new Applications is created with identifier {{ param }}",
+      "updated": "A Applications is updated with identifier {{ param }}",
+      "deleted": "A Applications is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Applications {{ id }}?"
+      },
+      "detail": {
+        "title": "Applications"
+      },
+      "id": "ID",
+      "appName": "App Name",
+      "appCode": "App Code",
+      "applicationsValues": "Applications Values",
+      "accounts": "Accounts",
+      "tasks": "Tasks",
+      "comments": "Comments"
+    }
+  }
+}

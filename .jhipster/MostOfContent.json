@@ -1,0 +1,44 @@
+{
+  "name": "MostOfContent",
+  "fields": [
+    {
+      "fieldName": "urlOriginal",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contentText",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "postTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "numberLike",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "numberComment",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "mostOfContValues",
+      "otherEntityRelationshipName": "mostOfContent",
+      "relationshipName": "mostOfContValues",
+      "otherEntityField": "mostOfContentId"
+    }
+  ],
+  "entityTableName": "most_of_content",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211218012522"
+}

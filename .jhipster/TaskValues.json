@@ -1,0 +1,33 @@
+{
+  "name": "TaskValues",
+  "fields": [
+    {
+      "fieldName": "value",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "tasks",
+      "otherEntityRelationshipName": "taskValues",
+      "relationshipName": "tasks"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "taskFields",
+      "otherEntityRelationshipName": "taskValues",
+      "relationshipName": "taskFields"
+    }
+  ],
+  "entityTableName": "task_values",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211218012509"
+}

@@ -1,0 +1,25 @@
+{
+  "autoproApp": {
+    "commentsFields": {
+      "home": {
+        "title": "Comments Fields",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Comments Fields",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Comments Fields",
+        "notFound": "No Comments Fields found"
+      },
+      "created": "Một Comments Fields mới được tạo với định danh {{ param }}",
+      "updated": "Một Comments Fields cập nhật với định danh {{ param }}",
+      "deleted": "Một Comments Fields đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Comments Fields {{ id }}?"
+      },
+      "detail": {
+        "title": "Comments Fields"
+      },
+      "id": "ID",
+      "fieldName": "Field Name",
+      "commentsValues": "Comments Values"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "autoproApp": {
+    "applicationsFields": {
+      "home": {
+        "title": "Applications Fields",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Applications Fields",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Applications Fields",
+        "notFound": "No Applications Fields found"
+      },
+      "created": "Một Applications Fields mới được tạo với định danh {{ param }}",
+      "updated": "Một Applications Fields cập nhật với định danh {{ param }}",
+      "deleted": "Một Applications Fields đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Applications Fields {{ id }}?"
+      },
+      "detail": {
+        "title": "Applications Fields"
+      },
+      "id": "ID",
+      "fieldName": "Field Name",
+      "applicationsValues": "Applications Values"
+    }
+  }
+}

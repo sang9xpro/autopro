@@ -1,0 +1,26 @@
+{
+  "autoproApp": {
+    "commentsValues": {
+      "home": {
+        "title": "Comments Values",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Comments Values",
+        "createOrEditLabel": "Create or edit a Comments Values",
+        "notFound": "No Comments Values found"
+      },
+      "created": "A new Comments Values is created with identifier {{ param }}",
+      "updated": "A Comments Values is updated with identifier {{ param }}",
+      "deleted": "A Comments Values is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Comments Values {{ id }}?"
+      },
+      "detail": {
+        "title": "Comments Values"
+      },
+      "id": "ID",
+      "value": "Value",
+      "comments": "Comments",
+      "commentsFields": "Comments Fields"
+    }
+  }
+}

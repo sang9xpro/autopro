@@ -1,0 +1,10 @@
+{
+  "autoproApp": {
+    "SchedulerStatus": {
+      "null": "",
+      "Open": "Open",
+      "Inprogess": "Inprogess",
+      "Completed": "Completed"
+    }
+  }
+}

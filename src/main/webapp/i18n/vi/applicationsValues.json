@@ -1,0 +1,26 @@
+{
+  "autoproApp": {
+    "applicationsValues": {
+      "home": {
+        "title": "Applications Values",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Applications Values",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Applications Values",
+        "notFound": "No Applications Values found"
+      },
+      "created": "Một Applications Values mới được tạo với định danh {{ param }}",
+      "updated": "Một Applications Values cập nhật với định danh {{ param }}",
+      "deleted": "Một Applications Values đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Applications Values {{ id }}?"
+      },
+      "detail": {
+        "title": "Applications Values"
+      },
+      "id": "ID",
+      "value": "Value",
+      "applications": "Applications",
+      "applicationsFields": "Applications Fields"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "autoproApp": {
+    "facebookValues": {
+      "home": {
+        "title": "Facebook Values",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Facebook Values",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Facebook Values",
+        "notFound": "No Facebook Values found"
+      },
+      "created": "Một Facebook Values mới được tạo với định danh {{ param }}",
+      "updated": "Một Facebook Values cập nhật với định danh {{ param }}",
+      "deleted": "Một Facebook Values đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Facebook Values {{ id }}?"
+      },
+      "detail": {
+        "title": "Facebook Values"
+      },
+      "id": "ID",
+      "value": "Value",
+      "facebook": "Facebook",
+      "facebookFields": "Facebook Fields"
+    }
+  }
+}

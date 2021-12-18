@@ -1,0 +1,25 @@
+{
+  "autoproApp": {
+    "commentsFields": {
+      "home": {
+        "title": "Comments Fields",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Comments Fields",
+        "createOrEditLabel": "Create or edit a Comments Fields",
+        "notFound": "No Comments Fields found"
+      },
+      "created": "A new Comments Fields is created with identifier {{ param }}",
+      "updated": "A Comments Fields is updated with identifier {{ param }}",
+      "deleted": "A Comments Fields is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Comments Fields {{ id }}?"
+      },
+      "detail": {
+        "title": "Comments Fields"
+      },
+      "id": "ID",
+      "fieldName": "Field Name",
+      "commentsValues": "Comments Values"
+    }
+  }
+}

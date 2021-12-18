@@ -1,0 +1,54 @@
+{
+  "name": "Devices",
+  "fields": [
+    {
+      "fieldName": "ipAddress",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "macAddress",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "os",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "deviceType",
+      "fieldType": "DeviceType",
+      "fieldValues": "MOBILE,COMPUTER,TABLET,VPS,VMW,ELUMATOR"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "DeviceStatus",
+      "fieldValues": "Online,Offline"
+    },
+    {
+      "fieldName": "lastUpdate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "owner",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "deviceValues",
+      "otherEntityRelationshipName": "devices",
+      "relationshipName": "deviceValues",
+      "otherEntityField": "deviceId"
+    }
+  ],
+  "entityTableName": "devices",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211218012513"
+}
